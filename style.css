@@ -50,9 +50,19 @@ body{
 }
 .infobox img{
     max-width: 100%;
-
-    
 }
+
+.infobox .field{
+    width: 35%;
+    float:left;
+    font-weight: bold;
+}
+.infobox .info{
+    width: 60%;
+    float:left;
+}
+
+
 .wiki h2 {
     margin-top: 50px;
 }
@@ -67,12 +77,13 @@ body{
 }
 .similar{
     margin-left: 96px;
+    margin-right: 96px;
     border:1px solid gray;
-    max-width:60%;
-    height:240px;
 }
 .similar img{
+    display: inline;    
     float:left;
+    padding: 20px;
     height: 200px;
     margin: 20px;
 }
